@@ -1,6 +1,7 @@
 #!/bin/bash
 
-tasks="1 2 3 4 5 6 9 10 11 12 13 14 15 16 17 18 20"
+# tasks="1 2 3 4 5 6 9 10 11 12 13 14 15 16 17 18 20"
+tasks="11 12 13 14 15 16 17 18 20"
 time for task in $tasks; do
   echo "running task: $task"
   for run in `jot 10`; do
